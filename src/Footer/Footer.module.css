@@ -1,0 +1,28 @@
+.footerBlock {
+    background-color: #8bd2e8;
+}
+
+.footerContainer {
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    background-color: lightgrey;
+}
+
+.socialNetworks {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 280px;
+    border: 1px solid;
+}
+
+.rights {
+    font-weight: bold;
+}

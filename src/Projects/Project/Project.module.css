@@ -1,0 +1,27 @@
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 250px;
+    background-color: #b1d7e0;
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    background-color: #fff;
+    background-image: url('https://stihi.ru/pics/2015/09/16/7291.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.button {
+    border: 1px solid;
+    background-color: grey;
+    width: 100px;
+    height: 30px;
+}
