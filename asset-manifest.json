@@ -1,15 +1,33 @@
 {
   "files": {
-    "main.css": "/My-portfolio/static/css/main.dc6ba14f.css",
-    "main.js": "/My-portfolio/static/js/main.b08cee14.js",
+    "main.css": "/My-portfolio/static/css/main.19d70528.css",
+    "main.js": "/My-portfolio/static/js/main.ee80695b.js",
+    "static/js/937.c387c23b.chunk.js": "/My-portfolio/static/js/937.c387c23b.chunk.js",
     "static/js/787.65557d19.chunk.js": "/My-portfolio/static/js/787.65557d19.chunk.js",
+    "static/media/pexels-hasan-albari-1229861.jpg": "/My-portfolio/static/media/pexels-hasan-albari-1229861.764c542f19e12e322696.jpg",
+    "static/media/6g6jGaZ75og.jpg": "/My-portfolio/static/media/6g6jGaZ75og.b5af80880446622029f5.jpg",
+    "static/media/Questionnaire--1200x900.png": "/My-portfolio/static/media/Questionnaire--1200x900.3c7e230514b10fdf97d8.png",
+    "static/media/to-do-list-190702.jpg": "/My-portfolio/static/media/to-do-list-190702.ae5a0b26eb151914d9d0.jpg",
+    "static/media/What_is_your_social_networking_style.jpg": "/My-portfolio/static/media/What_is_your_social_networking_style.b07cdee4dde54b447b0f.jpg",
+    "static/media/download-icon-codewars-_0.svg": "/My-portfolio/static/media/download-icon-codewars-1324440140703576726_0.1ed1f3e3ea99a563c543a1dbc3187d99.svg",
+    "static/media/react-brands.svg": "/My-portfolio/static/media/react-brands.b9ee6e1d0ee75ee94813aabb411b463d.svg",
+    "static/media/github-brands.svg": "/My-portfolio/static/media/github-brands.833b63e28cadf07403bc81451d30b858.svg",
     "index.html": "/My-portfolio/index.html",
-    "main.dc6ba14f.css.map": "/My-portfolio/static/css/main.dc6ba14f.css.map",
-    "main.b08cee14.js.map": "/My-portfolio/static/js/main.b08cee14.js.map",
+    "static/media/telegram-brands.svg": "/My-portfolio/static/media/telegram-brands.c208724dca7f92039867182af7fae06d.svg",
+    "static/media/code-solid.svg": "/My-portfolio/static/media/code-solid.5d02efa8a0a0f84280000e16c8086f7e.svg",
+    "static/media/js-brands.svg": "/My-portfolio/static/media/js-brands.849ab271da269656ee7d884b34d5ebce.svg",
+    "static/media/book-solid.svg": "/My-portfolio/static/media/book-solid.87f5b7374fc50b45cd3ed838ec858010.svg",
+    "static/media/wpforms-brands.svg": "/My-portfolio/static/media/wpforms-brands.3e5c4997d6b3956032f050c26b0b2730.svg",
+    "static/media/linkedin-in-brands.svg": "/My-portfolio/static/media/linkedin-in-brands.35d7cb01584842580623e4e827edfe6d.svg",
+    "static/media/material-ui-1.svg": "/My-portfolio/static/media/material-ui-1.fd510ed8518b192069590b04e2e6348a.svg",
+    "static/media/axios-icon.svg": "/My-portfolio/static/media/axios-icon.6d170f64a4a89ba89dd79fb56a486bbd.svg",
+    "main.19d70528.css.map": "/My-portfolio/static/css/main.19d70528.css.map",
+    "main.ee80695b.js.map": "/My-portfolio/static/js/main.ee80695b.js.map",
+    "937.c387c23b.chunk.js.map": "/My-portfolio/static/js/937.c387c23b.chunk.js.map",
     "787.65557d19.chunk.js.map": "/My-portfolio/static/js/787.65557d19.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc6ba14f.css",
-    "static/js/main.b08cee14.js"
+    "static/css/main.19d70528.css",
+    "static/js/main.ee80695b.js"
   ]
 }
