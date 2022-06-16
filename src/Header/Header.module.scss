@@ -1,0 +1,15 @@
+@import './src/Common/Styles/sass/variables.scss';
+@import './src/Common/Styles/sass/mixins.scss';
+
+.header {
+    //@include container();
+    @include flex(row, flex-end, center, nowrap);
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    height: 80px;
+    background-color: $primaryColor;
+    opacity: 0.8 !important;
+    z-index: 1;
+}

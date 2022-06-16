@@ -1,0 +1,35 @@
+@mixin description($textOpacity, $textColor) {
+  --bs-text-opacity: $textOpacity;
+  color: $textColor;
+}
+
+@mixin subtitles($fontSize, $marginBottom, $fontWeight, $lineHeight, $marginBlockStart,
+$marginBlockEnd, $marginInlineStart, $marginInlineEnd) {
+  font-size: $fontSize;
+  margin-bottom: $marginBottom;
+  font-weight: $fontWeight;
+  line-height: $lineHeight;
+  margin-block-start: $marginBlockStart;
+  margin-block-end: $marginBlockEnd;
+  margin-inline-start: $marginInlineStart;
+  margin-inline-end: $marginInlineEnd;
+}
+
+@mixin container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+@mixin flex($direction, $justifyContent, $alignItems, $wrap) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justifyContent;
+  align-items: $alignItems;
+  flex-wrap: $wrap
+}
+
+@mixin bgSettings() {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

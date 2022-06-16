@@ -1,0 +1,35 @@
+@import './src/Common/Styles/sass/variables.scss';
+@import './src/Common/Styles/sass/mixins.scss';
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 250px;
+    padding: 20px;
+    background-color: $bgColor;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+
+}
+
+
+
+.skillsInfo {
+    padding: 15px 10px;
+}
+
+.skillTitle {
+    @include subtitles( 1.3125rem !important,  0.5rem, 500, 1.2, 1.67em, 1.67em, 0px, 0px);
+    min-height: 51px;
+}
+
+.description {
+
+}

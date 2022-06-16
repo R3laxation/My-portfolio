@@ -1,13 +1,17 @@
 import React from 'react';
-import s from './Header.module.css'
+import s from './Header.module.scss'
 import {Nav} from './Nav/Nav';
-
+import Zoom from 'react-reveal/Zoom';
+import {BurgerNav} from './BurgerNav/BurgerNav';
 
 export const Header = () => {
-	return (
-		<div className={s.header}>
-			<Nav/>
-		</div>
-	);
+    return (
+        <Zoom>
+            <div className={s.header}>
+                <Nav/>
+                <BurgerNav/>
+            </div>
+        </Zoom>
+    );
 };
 

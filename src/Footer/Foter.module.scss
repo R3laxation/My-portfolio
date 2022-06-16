@@ -1,0 +1,80 @@
+@import './src/Common/Styles/sass/variables.scss';
+@import './src/Common/Styles/sass/mixins.scss';
+
+.footerBlock {
+  min-height: 300px;
+  background-color: $textColor;
+  //padding-top: 104px;
+  @include flex(column, flex-start, stretch, nowrap);
+
+  .footerContainer {
+    @include container();
+    @include flex(column, flex-start, center, nowrap);
+    padding: 50px 0 20px;
+
+    .title {
+      font-size: 40px;
+      font-weight: 600;
+      margin-bottom: 60px;
+      color: $bgColor;
+      font-family: 'Poppins', sans-serif;
+      line-height: 48px;
+      position: relative;
+      &::before {
+        content: '';
+        position: absolute;
+        background-color: #f5df4e;
+        width: 55px;
+        height: 3px;
+        bottom: -30px;
+        left: 50%;
+        transform: translate(-50%, 50%);
+      }
+    }
+    .socialIcons {
+      @include flex(row, space-between, center, nowrap);
+      width: 400px;
+      margin-top: 30px;
+      //border: 1px solid;
+      @media screen and (max-width: 505px) {
+        width: 100%
+      }
+
+      .socialIcon {
+        width: 40px;
+        height: 40px;
+        border: 1px solid $textColor;
+        border-radius: 50%;
+        &:hover{
+          transition: all 0.3s ease-in-out 0s;
+          transform: scale(1.5);
+        }
+        .logo {
+          fill: #F5F5F5;
+        }
+
+        .logo:hover * {
+          fill: #f5df4e;
+          transition: all 0.3s ease-in-out 0s;
+          cursor: pointer;
+
+        }
+
+        @media screen and (max-width: 380px) {
+          width: 30px;
+          height: 30px;
+        }
+
+      }
+    }
+
+    .copyRights {
+      font-size: 12px;
+      color:  $bgColor;
+      opacity: 0.7;
+      margin-top: 40px;
+      font-weight: bold;
+    }
+  }
+}
+

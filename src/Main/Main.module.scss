@@ -1,0 +1,190 @@
+@import './src/Common/Styles/sass/variables.scss';
+@import './src/Common/Styles/sass/mixins.scss';
+
+.mainBlock {
+  @include flex(row, center, center, nowrap);
+  height: 100vh;
+  background-color: $primaryColor;
+  padding: 100px 0;
+
+  .container {
+    @include container();
+    @include flex(row, space-between, center, wrap);
+    .intro {
+      color: $textColor;
+      @include flex(column, flex-start, flex-start, nowrap);
+      h1 {
+        font-weight: 300 !important;
+        line-height: 1.3;
+        text-transform: uppercase !important;
+        font-family: "Poppins", sans-serif;
+      }
+     .animatedText {
+        font-size: 4em;
+        font-weight: 600 !important;
+        line-height: 1.3;
+        text-transform: uppercase !important;
+        font-family: "Poppins", sans-serif;
+       @media screen and (max-width: 500px) {
+         word-break: break-word;
+       }
+      }
+      span {
+        font-size: 16px;
+      }
+
+      @media screen and (max-width: 1143px) {
+        align-items: center;
+      }
+      .buttons {
+        @include flex(row, flex-start, flex-start, nowrap);
+        .btn {
+          padding: 0.8rem 2.6rem;
+          font-weight: 500;
+          transition: all 0.5s ease;
+          margin-top: 1rem !important;
+          position: relative;
+          cursor: pointer;
+        }
+        .dark {
+          color: rgba(255, 255, 255, 0.4);
+          background-color: $textColor;
+          border-color: $textColor;
+          text-decoration: none;
+          &:hover {
+            color: rgba(255, 255, 255, 1);
+            span {
+              &:nth-child(1) {
+                transform: scaleY(1);
+                transform-origin: bottom;
+                transition: transform 0.5s;
+              }
+              &:nth-child(2) {
+                transform: scaleX(1);
+                transform-origin: left;
+                transition: transform 0.5s;
+              }
+              &:nth-child(3) {
+                transform: scaleY(1);
+                transform-origin: bottom;
+                transition: transform 0.5s;
+                transition-delay: 0.5s;
+              }
+              &:nth-child(4) {
+                transform: scaleX(1);
+                transform-origin: left;
+                transition: transform 0.5s;
+                transition-delay: 0.5s;
+              }
+            }
+          }
+          span {
+            display: block;
+            position: absolute;
+            background: $bgColor;
+            &:nth-child(1) {
+              left: 0;
+              bottom: 0;
+              width: 2px;
+              height: 100%;
+              transform: scaleY(0);
+              transform-origin: top;
+              transition: transform 0.5s;
+            }
+            &:nth-child(2) {
+              left: 0;
+              bottom: 0;
+              width: 100%;
+              height: 2px;
+              transform: scaleX(0);
+              transform-origin: right;
+              transition: transform 0.5s;
+            }
+            &:nth-child(3) {
+              right: 0;
+              bottom: 0;
+              width: 2px;
+              height: 100%;
+              transform: scaleY(0);
+              transform-origin: top;
+              transition: transform 0.5s;
+              transition-delay: 0.5s;
+            }
+            &:nth-child(4) {
+              left: 0;
+              top: 0;
+              width: 100%;
+              height: 2px;
+              transform: scaleX(0);
+              transform-origin: right;
+              transition: transform 0.5s;
+              transition-delay: 0.5s;
+            }
+          }
+        }
+
+        .link {
+          margin-left: 5px;
+          --bs-text-opacity: 1;
+          background-color: $primaryColor;
+          text-decoration: none;
+          color: rgba(0, 0, 0, 0.4);
+          &::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            height: 2px;
+            background-color: $textColor;
+            transform: scaleX(0);
+            transition: transform 500ms ease-in-out;
+          }
+          &:hover {
+            color: $textColor;
+            &::before {
+              transform: scaleX(1);
+            }
+          }
+        }
+      }
+    }
+    .photo {
+      background-color: $bgColor;
+      position: relative;
+      z-index: 1;
+      @media screen and (max-width: 1143px)  {
+        margin-top: 50px;
+      }
+      .image {
+        height: 400px;
+        width: 300px;
+        @include bgSettings();
+        background-image: url('./6g6jGaZ75og.jpg');
+        background-position: 80% 0;
+        @media screen and (max-width: 600px) {
+          height: 360px;
+          width: 250px;
+          transition: .5s;
+        }
+        &:before{
+          content: '';
+          position: absolute;
+          height: 110%;
+          width: 105%;
+          border: 5px solid $bgColor;
+          left: 15px;
+          top: -15px;
+          z-index: -1;
+        }
+      }
+    }
+  }
+
+}
+
+
+/*@media (min-width: 1200px)*/
+/*    .text-12 {*/
+/*        font-size: 3rem !important;*/
+/*    }*/

@@ -1,12 +1,11 @@
 import React from 'react';
-import s from './ContactsInput.module.css'
+import s from './ContactsInput.module.scss'
 
-
-
-export const ContactsInput = () => {
+export const ContactsInput = (props) => {
 	return (
 		<>
-			<input className={s.input} type="text"/>
+			<label className={s.label}>{props.name} </label>
+			<input className={s.input} type="text" />
 		</>
 
 
