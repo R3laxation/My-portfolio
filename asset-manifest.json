@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/My-portfolio/static/css/main.19d70528.css",
-    "main.js": "/My-portfolio/static/js/main.ee80695b.js",
+    "main.css": "/My-portfolio/static/css/main.a8dff9ad.css",
+    "main.js": "/My-portfolio/static/js/main.a8874012.js",
     "static/js/937.c387c23b.chunk.js": "/My-portfolio/static/js/937.c387c23b.chunk.js",
     "static/js/787.65557d19.chunk.js": "/My-portfolio/static/js/787.65557d19.chunk.js",
     "static/media/pexels-hasan-albari-1229861.jpg": "/My-portfolio/static/media/pexels-hasan-albari-1229861.764c542f19e12e322696.jpg",
@@ -21,13 +21,13 @@
     "static/media/linkedin-in-brands.svg": "/My-portfolio/static/media/linkedin-in-brands.35d7cb01584842580623e4e827edfe6d.svg",
     "static/media/material-ui-1.svg": "/My-portfolio/static/media/material-ui-1.fd510ed8518b192069590b04e2e6348a.svg",
     "static/media/axios-icon.svg": "/My-portfolio/static/media/axios-icon.6d170f64a4a89ba89dd79fb56a486bbd.svg",
-    "main.19d70528.css.map": "/My-portfolio/static/css/main.19d70528.css.map",
-    "main.ee80695b.js.map": "/My-portfolio/static/js/main.ee80695b.js.map",
+    "main.a8dff9ad.css.map": "/My-portfolio/static/css/main.a8dff9ad.css.map",
+    "main.a8874012.js.map": "/My-portfolio/static/js/main.a8874012.js.map",
     "937.c387c23b.chunk.js.map": "/My-portfolio/static/js/937.c387c23b.chunk.js.map",
     "787.65557d19.chunk.js.map": "/My-portfolio/static/js/787.65557d19.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.19d70528.css",
-    "static/js/main.ee80695b.js"
+    "static/css/main.a8dff9ad.css",
+    "static/js/main.a8874012.js"
   ]
 }
