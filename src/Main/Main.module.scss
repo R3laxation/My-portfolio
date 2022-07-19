@@ -3,7 +3,7 @@
 
 .mainBlock {
   @include flex(row, center, center, nowrap);
-  height: 100vh;
+  min-height: 100vh;
   background-color: $primaryColor;
   padding: 100px 0;
 
