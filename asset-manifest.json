@@ -1,12 +1,15 @@
 {
   "files": {
-    "main.css": "/My-portfolio/static/css/main.fa268d92.css",
-    "main.js": "/My-portfolio/static/js/main.e5474498.js",
+    "main.css": "/My-portfolio/static/css/main.4226b4be.css",
+    "main.js": "/My-portfolio/static/js/main.ca3e346f.js",
     "static/js/937.c387c23b.chunk.js": "/My-portfolio/static/js/937.c387c23b.chunk.js",
     "static/js/787.65557d19.chunk.js": "/My-portfolio/static/js/787.65557d19.chunk.js",
     "static/media/pexels-hasan-albari-1229861.jpg": "/My-portfolio/static/media/pexels-hasan-albari-1229861.764c542f19e12e322696.jpg",
     "static/media/6g6jGaZ75og.jpg": "/My-portfolio/static/media/6g6jGaZ75og.b5af80880446622029f5.jpg",
+    "static/media/tasty-pepperoni-pizza-with-mushrooms-and-olives_79782-1976.jpg": "/My-portfolio/static/media/tasty-pepperoni-pizza-with-mushrooms-and-olives_79782-1976.48536b97701653bb4000.jpg",
+    "static/media/film.jpg": "/My-portfolio/static/media/film.d4566e205ec0c5ecb9b3.jpg",
     "static/media/Questionnaire--1200x900.png": "/My-portfolio/static/media/Questionnaire--1200x900.3c7e230514b10fdf97d8.png",
+    "static/media/Beauty-extra-still-slide-FTPZ-videoSixteenByNineJumbo1600.jpg": "/My-portfolio/static/media/Beauty-extra-still-slide-FTPZ-videoSixteenByNineJumbo1600.c307ad63bb866a447644.jpg",
     "static/media/to-do-list-190702.jpg": "/My-portfolio/static/media/to-do-list-190702.ae5a0b26eb151914d9d0.jpg",
     "static/media/What_is_your_social_networking_style.jpg": "/My-portfolio/static/media/What_is_your_social_networking_style.b07cdee4dde54b447b0f.jpg",
     "static/media/download-icon-codewars-_0.svg": "/My-portfolio/static/media/download-icon-codewars-1324440140703576726_0.1ed1f3e3ea99a563c543a1dbc3187d99.svg",
@@ -21,13 +24,13 @@
     "static/media/linkedin-in-brands.svg": "/My-portfolio/static/media/linkedin-in-brands.35d7cb01584842580623e4e827edfe6d.svg",
     "static/media/material-ui-1.svg": "/My-portfolio/static/media/material-ui-1.fd510ed8518b192069590b04e2e6348a.svg",
     "static/media/axios-icon.svg": "/My-portfolio/static/media/axios-icon.6d170f64a4a89ba89dd79fb56a486bbd.svg",
-    "main.fa268d92.css.map": "/My-portfolio/static/css/main.fa268d92.css.map",
-    "main.e5474498.js.map": "/My-portfolio/static/js/main.e5474498.js.map",
+    "main.4226b4be.css.map": "/My-portfolio/static/css/main.4226b4be.css.map",
+    "main.ca3e346f.js.map": "/My-portfolio/static/js/main.ca3e346f.js.map",
     "937.c387c23b.chunk.js.map": "/My-portfolio/static/js/937.c387c23b.chunk.js.map",
     "787.65557d19.chunk.js.map": "/My-portfolio/static/js/787.65557d19.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa268d92.css",
-    "static/js/main.e5474498.js"
+    "static/css/main.4226b4be.css",
+    "static/js/main.ca3e346f.js"
   ]
 }
