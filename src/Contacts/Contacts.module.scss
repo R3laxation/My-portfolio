@@ -7,15 +7,21 @@
 
   .container {
     @include container();
-    @include flex(row, space-between, flex-start, nowrap);
+    @include flex(row, space-between, flex-start, wrap);
     .contactsText{
-      @include flex(column, flex-start, stretch, nowrap);
-      width:30%;
+      @include flex(column, flex-start, stretch, wrap);
+      width: 30%;
+      @media screen and (max-width: 550px) {
+        width: 100%;
+      }
       .text{
         margin-bottom: 30px;
       }
       p {
         margin: 0;
+      }
+      h3{
+        margin-bottom: 0px !important;
       }
     }
     .contactsData {
