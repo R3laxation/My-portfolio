@@ -40,38 +40,33 @@ export const Projects = () => {
 				<TitleSubtitle title={'Projects'} subtitle={'Some of my projects'}/>
 				<div className={s.projects}>
 					<Project buttonName={'Show'} projectTitle={'Social Network'}
-					         description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, dolorem!'}
+					         description={'Student social-network project based on React class components'}
 					         style={social} link={'https://r3laxation.github.io/Social-Network/#/'}
 
 					/>
 					<Project buttonName={'Show'}
 					         projectTitle={'Todo List'}
-					         description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. ' +
-					      'Ab aliquid iusto maiores maxime perspiciatis quisquam ratione sed tempore veritatis voluptatibus.'}
+					         description={'Student Toddlist project based on Class components with Material UI lib.'}
 					         style={todo} link={'https://github.com/R3laxation/todoList2021'}
 					/>
 					<Project buttonName={'Show'}
 					         projectTitle={'Questionnaire'}
-					         description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. ' +
-					         'Ab aliquid iusto maiores maxime perspiciatis quisquam ratione sed tempore veritatis voluptatibus.'}
+					         description={'Student project, elaborated with team and Git technologies'}
 					         style={quest} link={'https://yurakholoimov.github.io/cards-front-2.0/'}
 					/>
 					<Project buttonName={'Show'}
 							 projectTitle={'React-Pizza'}
-							 description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. ' +
-								 'Ab aliquid iusto maiores maxime perspiciatis quisquam ratione sed tempore veritatis voluptatibus.'}
+							 description={'Student project Pizza-shop with mockapi API'}
 							 style={pizza} link={'https://r3laxation.github.io/React-Pizza/'}
 					/>
 					<Project buttonName={'Show'}
 							 projectTitle={'Fragrance Shop'}
-							 description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. ' +
-								 'Ab aliquid iusto maiores maxime perspiciatis quisquam ratione sed tempore veritatis voluptatibus.'}
+							 description={'Student project Fragrance shop with stripe and commerce lib-es'}
 							 style={fragrance} link={'https://r3laxation.github.io/Fragrance-Shop/'}
 					/>
 					<Project buttonName={'Show'}
 							 projectTitle={'Movie-search'}
-							 description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. ' +
-								 'Ab aliquid iusto maiores maxime perspiciatis quisquam ratione sed tempore veritatis voluptatibus.'}
+							 description={'Simple student project Movie-search with omdbapi.com API'}
 							 style={movie} link={'https://r3laxation.github.io/Movie-Search/'}
 					/>
 				</div>

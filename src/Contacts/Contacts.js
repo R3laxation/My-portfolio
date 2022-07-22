@@ -19,7 +19,7 @@ export const Contacts = () => {
                         <h3 >Living in:</h3>
                         <address>the Republic of Kazakhstan, Nur-Sultan(ex. Astana)</address>
                         <h3 >Call:</h3>
-                        <p>(+060) 444 434 444</p>
+                        <p>+7(702) 625-68-98</p>
                     </div>
                     <div className={s.contactsData}>
                         <TitleSubtitle subtitle={'Estimate your Project?'}/>
