@@ -21,14 +21,16 @@ export const Skills = () => {
 				<Fade bottom>
 				<TitleSubtitle title={'What I Do?'} subtitle={'My skills'}/>
 				<div className={s.skills}>
-					<Skill title={'React /  Redux'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'} icon={react}/>
-					<Skill title={'JavaScript'} description={'Lorem ipsum dolor sit amet, consectetur'} icon={js}/>
-					<Skill title={'Axios / REST API'} description={'Lorem ipsum dolor sit amet, consectetur'} icon={axios}/>
-					<Skill title={'Formik / Redux-form'} description={'Lorem ipsum dolor sit amet, consectetur'} icon={form}/>
-					<Skill title={'HTML & CSS / SCSS'} description={'Lorem ipsum dolor sit amet, consectetur'} icon={code}/>
-					<Skill title={'Git / Github'} description={'Lorem ipsum dolor sit amet, consectetur'} icon={git}/>
-					<Skill title={'BEM / Material UI'} description={'Lorem ipsum dolor sit amet, consectetur'} icon={material}/>
-					<Skill title={'English language'} description={'Lorem ipsum dolor sit amet, consectetur'} icon={book}/>
+					<Skill title={'React /  Redux'} description={'\n' +
+						'I have an experience in developing user interfaces using the React library'} icon={react}/>
+					<Skill title={'JavaScript'} description={'\n' +
+						'I know native JS, I continue to study and improve it'} icon={js}/>
+					<Skill title={'Axios / REST API'} description={'Worked with requests to the server, typed them'} icon={axios}/>
+					<Skill title={'Formik / Redux-form'} description={'Worked with libraries for storing user data and validating them'} icon={form}/>
+					<Skill title={'HTML & CSS / SCSS'} description={'I have experience with work and continue to study HTML, CSS'} icon={code}/>
+					<Skill title={'Git / Github'} description={'Worked with Github both alone and in a team'} icon={git}/>
+					<Skill title={'BEM / Material UI'} description={'Worked with MUI on layouts, reassigned styles'} icon={material}/>
+					<Skill title={'English language'} description={'My English level is Intermediate/Upper-Intermediate'} icon={book}/>
 				</div>
 				</Fade>
 			</div>
