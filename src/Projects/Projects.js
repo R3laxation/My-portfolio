@@ -9,6 +9,7 @@ import questionnaire  from '../Assets/images/Questionnaire--1200x900.png';
 import pizzaImage  from '../Assets/images/tasty-pepperoni-pizza-with-mushrooms-and-olives_79782-1976.jpg';
 import perfume  from '../Assets/images/Beauty-extra-still-slide-FTPZ-videoSixteenByNineJumbo1600.jpg';
 import film  from '../Assets/images/film.jpg';
+import googleKeep  from '../Assets/images/keep.jpg';
 import Fade from 'react-reveal/Fade';
 
 
@@ -33,21 +34,28 @@ export const Projects = () => {
 	const movie = {
 		backgroundImage: `url(${film})`,
 	};
+	const keep = {
+		backgroundImage: `url(${googleKeep})`,
+	};
 	return (
 		<div className={s.projectsBlock} id='Projects'>
 			<Fade bottom>
 			<div className={`${sContainer.container} ${s.projectsContainer}`}>
 				<TitleSubtitle title={'Projects'} subtitle={'Some of my projects'}/>
 				<div className={s.projects}>
+					<Project buttonName={'Show'}
+							 projectTitle={'Todo List'}
+							 description={'Student Todolist project based on Class components with Material UI lib.'}
+							 style={todo} link={'https://github.com/R3laxation/todoList2021'}
+					/>
+					<Project buttonName={'Show'} projectTitle={'Google Keep clone'}
+							 description={'Test task, building Google Keep Clone without Redux, use only Context'}
+							 style={keep} link={'https://github.com/R3laxation/Google-Keep-Clone'}
+
+					/>
 					<Project buttonName={'Show'} projectTitle={'Social Network'}
 					         description={'Student social-network project based on React class components'}
 					         style={social} link={'https://r3laxation.github.io/Social-Network/#/'}
-
-					/>
-					<Project buttonName={'Show'}
-					         projectTitle={'Todo List'}
-					         description={'Student Toddlist project based on Class components with Material UI lib.'}
-					         style={todo} link={'https://github.com/R3laxation/todoList2021'}
 					/>
 					<Project buttonName={'Show'}
 					         projectTitle={'Questionnaire'}
@@ -56,7 +64,7 @@ export const Projects = () => {
 					/>
 					<Project buttonName={'Show'}
 							 projectTitle={'React-Pizza'}
-							 description={'Student project Pizza-shop with mockapi API'}
+							 description={'Student project Pizza-shop with mocApi API'}
 							 style={pizza} link={'https://r3laxation.github.io/React-Pizza/'}
 					/>
 					<Project buttonName={'Show'}
