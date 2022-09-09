@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/My-portfolio/static/css/main.4226b4be.css",
-    "main.js": "/My-portfolio/static/js/main.87aa6e30.js",
+    "main.js": "/My-portfolio/static/js/main.cce21565.js",
     "static/js/937.c387c23b.chunk.js": "/My-portfolio/static/js/937.c387c23b.chunk.js",
     "static/js/787.65557d19.chunk.js": "/My-portfolio/static/js/787.65557d19.chunk.js",
     "static/media/pexels-hasan-albari-1229861.jpg": "/My-portfolio/static/media/pexels-hasan-albari-1229861.764c542f19e12e322696.jpg",
@@ -12,6 +12,7 @@
     "static/media/Beauty-extra-still-slide-FTPZ-videoSixteenByNineJumbo1600.jpg": "/My-portfolio/static/media/Beauty-extra-still-slide-FTPZ-videoSixteenByNineJumbo1600.c307ad63bb866a447644.jpg",
     "static/media/to-do-list-190702.jpg": "/My-portfolio/static/media/to-do-list-190702.ae5a0b26eb151914d9d0.jpg",
     "static/media/What_is_your_social_networking_style.jpg": "/My-portfolio/static/media/What_is_your_social_networking_style.b07cdee4dde54b447b0f.jpg",
+    "static/media/keep.jpg": "/My-portfolio/static/media/keep.c5377bc5727ab37b017f.jpg",
     "static/media/download-icon-codewars-_0.svg": "/My-portfolio/static/media/download-icon-codewars-1324440140703576726_0.1ed1f3e3ea99a563c543a1dbc3187d99.svg",
     "static/media/react-brands.svg": "/My-portfolio/static/media/react-brands.b9ee6e1d0ee75ee94813aabb411b463d.svg",
     "static/media/github-brands.svg": "/My-portfolio/static/media/github-brands.833b63e28cadf07403bc81451d30b858.svg",
@@ -25,12 +26,12 @@
     "static/media/material-ui-1.svg": "/My-portfolio/static/media/material-ui-1.fd510ed8518b192069590b04e2e6348a.svg",
     "static/media/axios-icon.svg": "/My-portfolio/static/media/axios-icon.6d170f64a4a89ba89dd79fb56a486bbd.svg",
     "main.4226b4be.css.map": "/My-portfolio/static/css/main.4226b4be.css.map",
-    "main.87aa6e30.js.map": "/My-portfolio/static/js/main.87aa6e30.js.map",
+    "main.cce21565.js.map": "/My-portfolio/static/js/main.cce21565.js.map",
     "937.c387c23b.chunk.js.map": "/My-portfolio/static/js/937.c387c23b.chunk.js.map",
     "787.65557d19.chunk.js.map": "/My-portfolio/static/js/787.65557d19.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4226b4be.css",
-    "static/js/main.87aa6e30.js"
+    "static/js/main.cce21565.js"
   ]
 }
