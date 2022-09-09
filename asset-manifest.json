@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/My-portfolio/static/css/main.4226b4be.css",
-    "main.js": "/My-portfolio/static/js/main.cce21565.js",
+    "main.js": "/My-portfolio/static/js/main.ea6b6ac1.js",
     "static/js/937.c387c23b.chunk.js": "/My-portfolio/static/js/937.c387c23b.chunk.js",
     "static/js/787.65557d19.chunk.js": "/My-portfolio/static/js/787.65557d19.chunk.js",
     "static/media/pexels-hasan-albari-1229861.jpg": "/My-portfolio/static/media/pexels-hasan-albari-1229861.764c542f19e12e322696.jpg",
@@ -26,12 +26,12 @@
     "static/media/material-ui-1.svg": "/My-portfolio/static/media/material-ui-1.fd510ed8518b192069590b04e2e6348a.svg",
     "static/media/axios-icon.svg": "/My-portfolio/static/media/axios-icon.6d170f64a4a89ba89dd79fb56a486bbd.svg",
     "main.4226b4be.css.map": "/My-portfolio/static/css/main.4226b4be.css.map",
-    "main.cce21565.js.map": "/My-portfolio/static/js/main.cce21565.js.map",
+    "main.ea6b6ac1.js.map": "/My-portfolio/static/js/main.ea6b6ac1.js.map",
     "937.c387c23b.chunk.js.map": "/My-portfolio/static/js/937.c387c23b.chunk.js.map",
     "787.65557d19.chunk.js.map": "/My-portfolio/static/js/787.65557d19.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4226b4be.css",
-    "static/js/main.cce21565.js"
+    "static/js/main.ea6b6ac1.js"
   ]
 }
